@@ -1,0 +1,7 @@
+@EndUserText.label: 'Service Definition para Libros'
+define service ZUI_LIBROS_VFU {
+  expose ZI_LIBROS_VFU    as Libros;
+  expose ZI_CLNTS_LIB_VFU as ClientesLibro;
+  expose ZI_CLIENTES_VFU  as Clientes;
+  expose ZI_CATEGO_VFU    as Categorias;
+}
